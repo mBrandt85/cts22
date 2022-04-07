@@ -10,6 +10,7 @@ import styled from 'styled-components'
 import Menu from '../components/menu'
 
 interface UiContext {
+  menu: boolean
   toggleMenu: () => void
 }
 
@@ -26,7 +27,7 @@ const BackdropDiv = styled(a.div)`
 
 const DrawerDiv = styled(a.div)`
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -34,7 +35,7 @@ const DrawerDiv = styled(a.div)`
 
 export default function UiProvider({ children }: { children: ReactNode }) {
   const [backdrop, setBackdrop] = useState<boolean>(false)
-  const [drawer, setDrawer] = useState<boolean>(false)
+  const [menu, setMenu] = useState<boolean>(false)
 
   const backdropTransition = useTransition(backdrop, {
     from: { opacity: 0 },
@@ -42,7 +43,7 @@ export default function UiProvider({ children }: { children: ReactNode }) {
     leave: { opacity: 0 }
   })
 
-  const drawerTransition = useTransition(drawer, {
+  const drawerTransition = useTransition(menu, {
     from: { transform: 'translateY(100%)' },
     enter: { transform: 'translateY(0%)' },
     leave: { transform: 'translateY(100%)' }
@@ -50,7 +51,7 @@ export default function UiProvider({ children }: { children: ReactNode }) {
 
   const toggleMenu = () => {
     setBackdrop(!backdrop)
-    setDrawer(!drawer)
+    setMenu(!menu)
   }
 
   useEffect(() => {
@@ -59,6 +60,7 @@ export default function UiProvider({ children }: { children: ReactNode }) {
   }, [backdrop])
 
   return <Ui.Provider value={{
+    menu,
     toggleMenu
   }}>
     {children}

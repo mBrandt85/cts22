@@ -1,9 +1,9 @@
 import Layout from "../components/layout";
 
-export default function Home() {
+export default function NotFound() {
   return (
     <Layout title="Hem">
-      asdf
+      Not Found 404
     </Layout>
   )
 }
