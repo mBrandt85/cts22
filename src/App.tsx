@@ -1,4 +1,4 @@
-import useMediaQuery from './hooks/useMediaQuery'
+import useMediaQuery from './hooks/media-query'
 import { useUi } from './providers/ui-provider'
 
 export default function App() {
