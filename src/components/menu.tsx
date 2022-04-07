@@ -28,10 +28,23 @@ const StyledItem = styled.div`
   text-shadow: 0 .25rem .5rem rgba(0, 0, 0, 60%);
 `
 
-export default function Menu() {
+function MenuItem({ route, text }: { route: string, text: string }) {
   const { toggleMenu } = useUi()
   const navigate = useNavigate()
 
+  return (
+    <StyledItem
+      onClick={() => {
+        toggleMenu()
+        navigate(route)
+      }
+    }>
+      {text}
+    </StyledItem>
+  )
+}
+
+export default function Menu() {
   return (
     <StyledMenu>
       <span style={{ position: 'absolute', top: '1rem', left: '1rem' }}>
@@ -47,15 +60,11 @@ export default function Menu() {
         </svg>
       </span>
       
-      <StyledItem onClick={() => {
-        toggleMenu()
-        navigate('/')
-      }}>Home</StyledItem>
-      <StyledItem onClick={toggleMenu}>Schedule</StyledItem>
-      <StyledItem onClick={toggleMenu}>Speakers</StyledItem>
-      <StyledItem onClick={toggleMenu}>Speakers</StyledItem>
-      <StyledItem onClick={toggleMenu}>Workshops</StyledItem>
-      <StyledItem onClick={toggleMenu}>News</StyledItem>
+      <MenuItem route="/" text="Home" />
+      <MenuItem route="/" text="Schedule" />
+      <MenuItem route="/" text="Speakers" />
+      <MenuItem route="/" text="Workshops" />
+      <MenuItem route="/" text="News" />
     </StyledMenu>
   )
 }
