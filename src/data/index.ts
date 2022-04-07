@@ -7,7 +7,7 @@ export interface News {
 }
 
 export function getNews(): any {
-  return news.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
+  return news.sort((a, b) => Date.parse(b.date) > Date.parse(a.date) ? 1 : -1)
 }
 
 export function getLatestNews(quantity: number = 3): News[] {
