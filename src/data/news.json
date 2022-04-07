@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2022-09-30 11:50:00",
+    "title": "Final schedule set",
+    "message": "The final schedule for all our fantastic speakers is ready. It will be great!"
+  },
+  {
+    "date": "2022-09-21 08:38:00",
+    "title": "Keynote speakers page",
+    "message": "Added a keynote speakers page with a short introduction of our speakers."
+  },
+  {
+    "date": "2022-09-03 15:38:00",
+    "title": "Schedule updated",
+    "message": "The Schedule is now updated and more or less as it will be on the day for the conference."
+  },
+  {
+    "date": "2022-09-02 14:00:00",
+    "title": "Google will speak at CTS 2022",
+    "message": "Google will join CTS 2022! They have promised an inspirational talk about artificial intelligence and machine learning on Google Cloud."
+  },
+  {
+    "date": "2022-08-16 15:04:00",
+    "title": "Keynote speaker is set",
+    "message": "We are happy to announce that Fredrik Löfgren will join CTS 2022 for an interesting keynote on Artificial Intelligence and Virtual Reality. You can read more about Fredrik at https://fredriklofgren.se/."
+  },
+  {
+    "date": "2022-07-07 16:25:00",
+    "title": "Speakers updated",
+    "message": "The list of speakers is updated. The schedule is still a work in progress."
+  }
+]

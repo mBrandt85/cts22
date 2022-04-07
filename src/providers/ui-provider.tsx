@@ -17,7 +17,7 @@ interface UiContext {
 const Ui = createContext({} as UiContext)
 
 const BackdropDiv = styled(a.div)`
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 80%);
@@ -26,7 +26,7 @@ const BackdropDiv = styled(a.div)`
 `
 
 const DrawerDiv = styled(a.div)`
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;

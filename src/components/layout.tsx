@@ -18,6 +18,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 1rem;
 
   @media screen 
     and (max-width: 599.98px) 
@@ -26,7 +27,7 @@ const Container = styled.div`
     and (orientation: landscape)
   {
     max-width: 100%;
-    padding-bottom: 56px;
+    padding-bottom: 6rem;
   }
 
   @media screen 
@@ -39,7 +40,7 @@ const Container = styled.div`
   {
     margin: 0 auto;
     max-width: 800px;
-    padding-bottom: 64px;
+    padding-bottom: 6rem;
   }
 
   @media screen 
@@ -50,7 +51,6 @@ const Container = styled.div`
   {
     margin: 0 auto;
     max-width: 1100px;
-    padding-bottom: 64px;
   }
 `
 
