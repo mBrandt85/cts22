@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Link, useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 
 import { useUi } from "../providers/ui-provider"
 import Logo from '../assets/logo-white.svg'
@@ -64,7 +64,7 @@ export default function Menu() {
       <MenuItem route="/" text="Schedule" />
       <MenuItem route="/" text="Speakers" />
       <MenuItem route="/" text="Workshops" />
-      <MenuItem route="/" text="News" />
+      <MenuItem route="/news" text="News" />
     </StyledMenu>
   )
 }

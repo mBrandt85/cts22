@@ -4,6 +4,7 @@ import MenuToggle from './components/menu-toggle'
 import { useUi } from './providers/ui-provider'
 import useMediaQuery from './hooks/media-query'
 import Home from './pages/home'
+import News from './pages/news'
 import NotFound from './pages/not-found'
 import styled from 'styled-components'
 
@@ -23,6 +24,7 @@ export default function App() {
   return <>
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/news" element={<News />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
 

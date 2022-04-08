@@ -6,7 +6,7 @@ export interface News {
   message: string
 }
 
-export function getNews(): any {
+export function getNews(): News[] {
   return news.sort((a, b) => Date.parse(b.date) > Date.parse(a.date) ? 1 : -1)
 }
 
