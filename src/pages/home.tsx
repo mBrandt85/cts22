@@ -1,7 +1,7 @@
 import Layout from "../components/layout"
 import { Title } from "../components/typography"
 import Logo from '../assets/logo-red.svg'
-import { getLatestNews } from "../data"
+import { getNews } from "../data"
 import NewsItem from "../components/news-item"
 import styled from "styled-components"
 import { Link } from "react-router-dom"
@@ -13,7 +13,7 @@ const StyledHeader = styled.div`
 `
 
 export default function Home() {
-  const news = getLatestNews()
+  const news = getNews()
   
   return (
     <Layout title="Hem">
@@ -23,7 +23,7 @@ export default function Home() {
       </StyledHeader>
 
       <Title size="1rem">Latest News</Title>
-      {news.map((data, key) => <NewsItem key={key} data={data} />)}
+      {news.slice(0, 3).map((data, key) => <NewsItem key={key} data={data} />)}
       
       <Title size="1.5rem" margin="2rem 0 1rem 0">Welcome to CTS 2022</Title>
       <p>You partake at CTS 2022 either from your home or together with colleagues at prepared locations. Information about locations at your office will come from your local CTS project manager well before the event.</p>

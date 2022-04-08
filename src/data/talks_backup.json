@@ -1,0 +1,17 @@
+[
+  {
+    "id": 0,
+    "speakers": [
+      {
+        "name": "Billy Sjöberg",
+        "image": "billy-sjöberg.jpg"
+      }
+    ],
+    "title": "Att samarbeta bort en flaskhals",
+    "description": "En reflektion av hur ett team mitt i stormen av det största mediala paradigmskiftet sedan TV’ns intåg gick från att vara en flaskhals till älskad samarbetspartner. En sann solskenshistoria om misslyckanden, brutalt smärtande ärlighet och ett öppet mindset.",
+    "feedbackUrl": "https://forms.gle/roMxahDraoBcHhd96",
+    "presentationUrl": null,
+    "tracks": ["ledarskap", "icketecknisk", "utvecklingsmetodik", "utmananormer", "swedish"],
+    "level": 1
+  }
+]

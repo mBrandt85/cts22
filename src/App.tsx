@@ -7,6 +7,7 @@ import Home from './pages/home'
 import News from './pages/news'
 import NotFound from './pages/not-found'
 import styled from 'styled-components'
+import Talks from './pages/talks'
 
 const StyledFade = styled.div`
   position: fixed;
@@ -25,6 +26,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/news" element={<News />} />
+      <Route path="/talks" element={<Talks />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
 

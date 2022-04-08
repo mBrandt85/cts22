@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Aula Imaginarium",
+    "shortName": "A",
+    "type": "aula",
+    "description": "The main room",
+    "url": "https://youtu.be/_6ZAygz3MGs"
+  },
+  {
+    "name": "Room 1",
+    "shortName": "R1",
+    "type": "talk",
+    "description": "Room 1",
+    "url": "https://youtu.be/jKV_FzFdYaI"
+  },
+  {
+    "name": "Room 2",
+    "shortName": "R2",
+    "type": "talk",
+    "description": "Room 2",
+    "url": "https://youtu.be/7MdJ4Uj7fYM"
+  }
+]

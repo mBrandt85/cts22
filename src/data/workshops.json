@@ -1,0 +1,65 @@
+[
+    {
+    "id": 0,
+        "title": "workshop1",
+        "description": "Workshop about something",
+        "prereqs": "something",
+        "linktoMeeting": "https://www.google.com",
+        "signuplink": "https://www.apple.com"
+    },
+    {
+        "id": 1,
+        "title": "workshop2",
+        "description": "Workshop about something else",
+        "prereqs": "something else",
+        "linktoMeeting": "https://www.google.com",
+        "signuplink": "https://www.apple.com"
+    },
+    {
+        "id": 2,
+        "title": "workshop3",
+        "description": "Workshop about something else",
+        "prereqs": "workshop1",
+        "linktoMeeting": "https://www.google.com",
+        "signuplink": "https://www.apple.com"
+    },
+    {
+        "id": 3,
+        "title": "workshop4",
+        "description": "Workshop about something else",
+        "prereqs": "workshop2",
+        "linktoMeeting": "https://www.google.com",
+        "signuplink": "https://www.apple.com"
+    },
+    {
+        "id": 4,
+        "title": "workshop5",
+        "description": "Workshop about something else",
+        "prereqs": "something else",
+        "linktoMeeting": "https://www.google.com",
+        "signuplink": "https://www.apple.com"
+    },{
+        "id": 5,
+        "title": "workshop6",
+        "description": "Workshop about something else",
+        "prereqs": "something else",
+        "linktoMeeting": "https://www.google.com",
+        "signuplink": "https://www.apple.com"
+    },
+    {
+        "id": 6,
+        "title": "workshop7",
+        "description": "Workshop about something else",
+        "prereqs": "something else",
+        "linktoMeeting": "https://www.google.com",
+        "signuplink": "https://www.apple.com"
+    },
+    {
+        "id": 7,
+        "title": "workshop8",
+        "description": "Workshop about something else",
+        "prereqs": "workshop7",
+        "linktoMeeting": "https://www.google.com",
+        "signuplink": "https://www.apple.com"
+    }
+]

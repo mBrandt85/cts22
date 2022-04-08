@@ -1,0 +1,338 @@
+[
+  {
+    "id": 0,
+    "speakers": [
+      {
+        "name": "Mats Fredriksson",
+        "image": "mats-fredriksson.jpg"
+      }
+    ],
+    "title": "Video och ML - en introduktion",
+    "description": "En bild säger mer än tusen ord, så vad säger då en film? Video-data kan numer skapas av alla närsomhelst, under videomöten, som videoberättelser, som klipp från fritiden, från kameror som filmar någon process, eller som stora produktioner från filmbolag. Video är ofta tolkbart för oss som människor på ett snabbt och innehållsrikt sätt. Men hur kan man analysera video-data maskinellt och automatiserat?\n\nDen här presentationen ger en introduktion till området, med en röd tråd till deep learning. Vi tittar på vad som är speciellt för just bild & video när man använder deep learning algoritmer, vilka utmaningar som finns och vad \"state of the art\" är idag. Inga förkunskaper behövs inom video eller ML, vi går igenom grunderna i deep learning (som är ett matematiskt flervariabelanalys-problem) och hur det appliceras på bilder och video.",
+    "feedbackUrl": "https://forms.gle/ARpDFX5YKpiPykr39",
+    "presentationUrl": "https://drive.google.com/file/d/1ktSpxut_Px8ncP3lvaLLTKVO3CipgfTw/view?usp=sharing",
+    "tracks": ["🇸🇪", "video", "ML"],
+    "level": 0
+  },
+  {
+    "id": 1,
+    "speakers": [
+      {
+        "name": "Johan Horvius",
+        "image": "johan-horvius.jpg"
+      }
+    ],
+    "title": "Rise of an Architect",
+    "description": "Software Engineering is a profession and an artform that requires many different skill sets, tools and competencies. Among those, communication is a key aspect across the development cycle and one major part of this is agreeing on an architecture for how the current system should be developed.\n\nI've been part of a few different projects now since the start of my career and I'd like to take the opportunity to share some experiences and summarize my reasoning on important things to consider when it comes to Software Architecture.",
+    "feedbackUrl": "https://forms.gle/KhBr8okHdUmj9jBWA",
+    "presentationUrl": "https://drive.google.com/file/d/1xbTIrcRSv6HyiI1LEvUk6ytWEMe11wSe/view?usp=sharing",
+    "tracks": [
+      "🇬🇧", "architecture", "processes", "development", "communication"
+    ],
+    "level": 0
+  },
+  {
+    "id": 2,
+    "speakers": [
+      {
+        "name": "Erik Karlström",
+        "image": "erik-karlstrom.jpg"
+      }
+    ],
+    "title": "Elm - Ett härligt språk för pålitliga webbapplikationer",
+    "description": "Senaste åren har jag jobbat med Angular och byggt flera applikationer. Via Angular har lärt mig  uppskatta Typescript. I Angular projekten har vi stundvis brottats med hantering av state och sett att det finns många sätt att krångla till det bara för att få förutsägbara dataflöden. Vi har även dykt på delade objekt referenser vilket lett till att vi kör facebooks immutable.js. (Numera sneglar vi på immer.js).\n\nMålet är att bygga pålitliga webbapplikationer. Trots att Angular känns stort och har Google i ryggen så saknar vi pusselbitar.\n\nElm dök upp som Access på Thoughtworks technology radar 2014 och 2016. Elm fokuserar på dataflöden och anges som inspirationen till Reacts Redux. All data är immutable. Inget är null. Språket har en åsikt om hur vi ska hantera dataflöden och i gengäld fångar kompilatorn fel istället för att vi ska få dem i runtime.\n\nÄr Elm ett härligt språk för pålitliga webbapplikationer? Det ska vi titta närmare på.",
+    "feedbackUrl": "https://forms.gle/pkiSzGAXRpDUgu6x8",
+    "presentationUrl": "https://drive.google.com/file/d/1zwfPw6jCVjHlS7P-ZFNRv1gEc1U7hq8t/view?usp=sharing",
+    "tracks": ["🇸🇪", "Elm", "webb"],
+    "level": 1
+  },
+  {
+    "id": 3,
+    "speakers": [
+      {
+        "name": "Sebastian Berglönn",
+        "image": "sebastian-berglönn.jpg"
+      }
+    ],
+    "title": "Webassembly kan göra mer än vad namnet antyder",
+    "description": "Ett hett ämne inom frontend är Webassembly, med all rätt. Däremot finns det mycket mer potential, för t.ex backendutvecklare eller devopsare.\n\nJag kommer gå igenom andra användningsområden och även förmedla vad som sker i Webassembly-världen",
+    "feedbackUrl": "https://forms.gle/UCQ7righ33pPuZr1A",
+    "presentationUrl": "https://drive.google.com/file/d/1p3olinfV8wfcSvIJW5H-Pw55RCjoBTye/view?usp=sharing",
+    "tracks": ["🇸🇪", "devops", "backend", "webassembly"],
+    "level": 1
+  },
+  {
+    "id": 4,
+    "speakers": [
+      {
+        "name": "Josefina Andreasson",
+        "image": "josefina-andreasson.jpg"
+      }
+    ],
+    "title": "Screen Readers 101 - Voice Your Application",
+    "description": "What is the first thing that comes to mind when I say that the website we are developing must be accessible? For me, it is that scary old screen reader that I never learned about, because I never really needed it and it seemed rather overwhelming.\n\nToday, I'm here to tell you that I did learn about it, and it's not that scary at all. Oh, and I will also tell you how it works.",
+    "feedbackUrl": "https://forms.gle/BFBaEPga3yDty8Fn8",
+    "presentationUrl": "https://drive.google.com/file/d/15Vj_Ow05uNbvnZZdtnfpnZRcezHTwlD5/view?usp=sharing",
+    "tracks": ["🇬🇧", "accessibility", "a11y", "screenreaders"],
+    "level": 1
+  },
+  {
+    "id": 5,
+    "speakers": [
+      {
+        "name": "Mikael Elm",
+        "image": "mikael-elm.jpg"
+      }
+    ],
+    "title": "Reactive sucks! Okay, but it might stick around for a while.",
+    "description": "Spring embraced the reactive style a couple of years ago with the introduction of WebFlux. Parallel to this, Java is working on getting project Loom shipped.\n\nBoth reactive streams and Loom are aimed at reducing overhead costs when working with parallel tasks. The former however, introduces a programming model different from the traditional imperative style, and many find it hard to grasp. \n\nThis talk is for you if you resort to .block() on a WebFlux call, but want to start learning how to actually use WebFlux/Project Reactor.\n\nI will talk a bit about the controversies surrounding reactive programming in the Java world. I might throw in a quote or two from Brian Goetz. I will however focus on the purpose of reactive streams, how a reactive chain works in Reactor and a few gotchas that helped me understand the Reactor API better.",
+    "feedbackUrl": "https://forms.gle/4AscLbB5DpYS7iAX6",
+    "presentationUrl": "https://drive.google.com/file/d/15i6_u9Jtjomcgl6btI4pWWHo4OKma08f/view?usp=sharing",
+    "tracks": ["🇬🇧", "reactive", "reactivestreams", "reactor", "webflux", "java", "spring"],
+    "level": 1
+  },
+  {
+    "id": 6,
+    "speakers": [
+      {
+        "name": "Pierre Stridsberg",
+        "image": "pierre-stridsberg.jpg"
+      }
+    ],
+    "title": "Introduction to the world of actors, with Akka",
+    "description": "Build powerful reactive, concurrent, and distributed applications more easily\n\nThat is what is promised by the team behind the akka framework. But how does it work?\n\nAkka is a toolkit for building highly concurrent, distributed, and resilient message-driven applications for Java, Scala and .Net\n\nIn this talk, I will give you an introduction to that framework. We will talk about the architecture and look at some code.",
+    "feedbackUrl": "https://forms.gle/yo3j4Kkt9PzErKSQ8",
+    "presentationUrl": "https://drive.google.com/file/d/1Qnbq5ZQsRYZR1msWOdUKnPQhPR9VDp0y/view?usp=sharing",
+    "tracks": ["🇬🇧", "Akka", "concurrency", "Java", ".NET"],
+    "level": 1
+  },
+  {
+    "id": 7,
+    "speakers": [
+      {
+        "name": "Jesper Olsson Laine",
+        "image": "jesper-olsson-laine.jpg"
+      }
+    ],
+    "title": "Writing \"clean\" tests in .NET with AutoFixture and NSubstitute",
+    "description": "Unit tests can oftentimes become quite messy, repetetive and hard to read. This tends to disguise the actual purpose of the test and what is actually being tested.\n\n In this talk I will present an approach to increase the readability and reusability of unit tests in .NET through the use of tools such as AutoFixture and NSubstitute.\n\n I will present some basics on both AutoFixture and NSubstitute and demonstrate a scenario where I use these tools to refactor a unit test.",
+    "feedbackUrl": "https://forms.gle/YpeFLyhehFTvhGm89",
+    "presentationUrl": "https://drive.google.com/file/d/1Mwjn_hv0eJmIHKEDXeulscCsLRI0mUMf/view?usp=sharing",
+    "tracks": ["🇬🇧", "unittests", "dotnet", "autofixture", "nsubstitute"],
+    "level": 1
+  },
+  {
+    "id": 8,
+    "speakers": [
+      {
+        "name": "Derrick Eriksson",
+        "image": "derrick-eriksson.jpg"
+      }
+    ],
+    "title": "Geodata i Elasticsearch - en introduktion i att hitta",
+    "description": "Varför är markören ute i havet? \nÄr koordinaterna bak och fram?  \nHur kommer det sig att priset blev till en plats i Afrika? \nVad har kuvert att göra med att söka koordinater? \n\nKom in för en vägvisning i geodata och gå ut med koll på läget eller vilsnare än innan.",
+    "feedbackUrl": "https://forms.gle/HXLLXYGFpPaHuhPE6",
+    "presentationUrl": "https://drive.google.com/file/d/17ZbyY3QyLl2DgzjDvWNWVDuVWaC61jVl/view?usp=sharing",
+    "tracks": ["🇸🇪", "Elasticsearch", "geodata", "introduktion", "vilse"],
+    "level": 1
+  },
+  {
+    "id": 9,
+    "speakers": [
+      {
+        "name": "Joakim Mattsson Thorell",
+        "image": "joakim-mattsson-thorell.jpg"
+      }
+    ],
+    "title": "Introduction to Aspect-Oriented Programming",
+    "description": "Some of you older developers probably know and used Aspect-Oriented Programming (AOP) at some point in your career. However, a few have perhaps not heard of it and most likely not written any aspects, yet. \n\nThis talk is an introduction to describe how AOP can be used with some basic examples. \n\nIn code examples I am using Java with Spring AOP but the concept exists within other languages and frameworks also. ",
+    "feedbackUrl": "https://forms.gle/vEX6FCsV9QN1iDB97",
+    "presentationUrl": "https://drive.google.com/file/d/1EKt-SA_5ArXA2OB5hCZjLCgkoK8wDDc8/view?usp=sharing",
+    "tracks": ["🇬🇧", "AOP", "spring", "java"],
+    "level": 1
+  },
+  {
+    "id": 10,
+    "speakers": [
+      {
+        "name": "Carl Englund",
+        "image": "carl-englund.jpg"
+      }
+    ],
+    "title": "Kafka 101 - En enkel introduktion till Apache Kafka",
+    "description": "Apache Kafka är en distribuerad plattform för event-streaming som används av tusentals företag dagligen. I detta talk kommer jag gå igenom vad det är, hur det används och funkar samt varför det används av så många företag idag. \n\nDetta är för dig som kanske inte jobbat med det så mycket tidigare eller inte alls men vill veta mer och få en liten intro till hur just du kan börja använda Kafka. Jag kommer börja med att introducera grunderna i ett simpelt pub/sub-system för att sedan gå in mer på hur Kafka fungerar och visa upp en demo för att demonstrera smidigheten i systemet.",
+    "feedbackUrl": "https://forms.gle/yTXgWCq1RAEwRZCi8",
+    "presentationUrl": "https://drive.google.com/file/d/1PKCSh9zKpvKhMvJo3O-GcjNs8jHdgT95/view?usp=sharing",
+    "tracks": ["🇬🇧", "kafka", "pub/sub", "microservice", "streaming"],
+    "level": 1
+  },
+  {
+    "id": 11,
+    "speakers": [
+      {
+        "name": "Torbjörn Gannholm",
+        "image": "torbjörn-gannholm.jpg"
+      }
+    ],
+    "title": "Advanced Software Design - How and why to spend more time thinking rather than coding.",
+    "description": "A program can be viewed on three levels: runtime, implementation and design/logic. To write good code that helps prevent bugs and withstands the test of time you need to lift your thinking to the design level./n/nThis talk contains some practical tips to help you write better, more readable and less buggy code by making the design/logic level visible in your implementation.",
+    "feedbackUrl": "https://forms.gle/wLf61W6XQ3mDhLQA6",
+    "presentationUrl": "https://drive.google.com/file/d/1c7CWOuDyADjlr5LKHDRxMEbkRFt9bfse/view?usp=sharing",
+    "tracks": [
+      "🇬🇧",
+      "programming",
+      "clean code"
+    ],
+    "level": 1
+  },
+  {
+    "id": 12,
+    "speakers": [
+      {
+        "name": "Jonathan Brorsson",
+        "image": "jonathan-brorsson.jpg"
+      }
+    ],
+    "title": "Zero trust Architecture",
+    "description": "\"Zero trust\" har länge varit ett buzzword som slängts runt. Men vad betyder det egentligen? Och varför är arkitekturer som implimenterar det så mycket bättre än klassiska säkerhetsmodeller?",
+    "feedbackUrl": "https://forms.gle/9cPJVzgMnv4soXbPA",
+    "presentationUrl": "https://drive.google.com/file/d/1KuYhi8F1crKpUSJh3WDM_O6XijFwHNVV/view?usp=sharing",
+    "tracks": ["🇸🇪", "security", "zerotrust"],
+    "level": 1
+  },
+  {
+    "id": 13,
+    "speakers": [
+      {
+        "name": "Emil Lundgren",
+        "image": "emil-lundgren.jpg"
+      }
+    ],
+    "title": "What the fluff, React Native?",
+    "description": "React Native as many of you know, is a language for developing native applications for Android and IOS with React. The idea for me to develop an application in the same code base and being able to release it natively on both platforms was compelling to me as I’m quite focused on ‘taking the shortest path to a solution’. \n\nI have now developed several applications with React Native and would like to share my insights and come to a conclusion if it was so easy after all. During my talk I will introduce you to some code but a lot of observations of the development process when making a native application from scratch and releasing it to the app- and play store. Aka the fluff, React Native!",
+    "feedbackUrl": "https://forms.gle/XUeQNCMczM8nvYxcA",
+    "presentationUrl": "https://drive.google.com/file/d/14NhW09TgSBDQEIDketCvlI6NTcvn9BvM/view?usp=sharing",
+    "tracks": ["🇬🇧", "react_native", "app_development", "road_to_production", "development_environment"],
+    "level": 1
+  },
+  {
+    "id": 14,
+    "speakers": [
+      {
+        "name": "Tommy Sundström",
+        "image": "tommy-sundström.jpg"
+      }
+    ],
+    "title": "SAFe ♥︎ Design Thinking (~40 minutes over two sessions)",
+    "description": "Please note that this talk is ~50 minutes and will span over two sessions.\n\nUX and agile have not always played nice together. SAFe, a method for large-scale agile projects is now trying to change this. \n\nWe will look at how Design Thinking methods can be used in SAFe to make the user's needs as influential as the business viability and the technical feasibility. Subjects that you will learn about: \n- How to build empathy.\n- How Design Thinking's Double Diamond maps to SAFe's process. \n- How the Customer Journey maps to a Value Stream.\n- How Business Model Canvas is used to maps both business and user needs.\n- Finally, how you can use Impact Mapping to tie the whole process together.",
+    "feedbackUrl": "https://forms.gle/9o9z7zp1RmazfcCG7",
+    "presentationUrl": "https://drive.google.com/file/d/1BjGyCAXwasRDudhjSTdNliT45lrWCqtC/view?usp=sharing",
+    "tracks": ["🇬🇧", "business", "usability", "development", "SAFe", "agile", "design thinking", "UX", "CX", "customer journey", "business model canvas", "impact mapping"],
+    "level": 1
+  },
+  {
+    "id": 15,
+    "speakers": [
+      {
+        "name": "Jim Svensson",
+        "image": "jim-svensson.jpg"
+      }
+    ],
+    "title": "QUICer Internet with HTTP/3? Why, when and how.",
+    "description": "All the cool kids like Google and FaceBook gets to play with it, so why can't I?\n\nThis talk will touch on what problems HTTP/3 and QUIC tries to solve, what new building blocks it introduces into the scene of large scale transfers over the Internet, what pitfalls there is and why TCP may finally get a worthy companion after having ruled supreme for so many decades.\n\nThe landscape of this is very much in motion and some pointers of how to get started will be presented.",
+    "feedbackUrl": "https://forms.gle/o1UtXp1vHrmeXLjp6",
+    "presentationUrl": "https://drive.google.com/file/d/1GLYL85BIOx4oi8iXa89Z6c0LAG9rp-zA/view?usp=sharing",
+    "tracks": ["🇬🇧", "HTTP3", "h3", "QUIC", "SpeedierCuteCats"],
+    "level": 1
+  },
+  {
+    "id": 16,
+    "speakers": [
+      {
+        "name": "Jakob Leczinsky",
+        "image": "jakob-leczinsky.jpg"
+      }
+    ],
+    "title": "The terminal is my IDE",
+    "description": "The IDE is arguably the most important tool we have as modern software developers. Very often, the more powerful it is, the more it abstracts away from the computer we work on. Also, they often come as heavy applications that take long time to boot. They are also often specialized for a certain language or environment that doesn't fit a polyglot developer that is working on many different projects simultaneously. \n\nVSCode has changed this in many ways, but can we take it one step further? \n\nI will talk about how I set up my environment the way I want it - mostly by utilizing the powerful tools in the terminal. The focus will be on working hands on in a Linux environment, but I will also talk briefly about how I use this setup on Windows and OSX.",
+    "feedbackUrl": "https://forms.gle/qEiLuRdcDvovoZfeA",
+    "presentationUrl": "https://drive.google.com/file/d/1D-xKKz_EzCHG55n-tk4HWPuXMgqE2MWV/view?usp=sharing",
+    "tracks": ["🇸🇪", "development", "polyglot", "linux", "beginner"],
+    "level": 1
+  },
+  {
+    "id": 17,
+    "speakers": [
+      {
+        "name": "Filip Carlén",
+        "image": "filip-carlen.jpg"
+      }
+    ],
+    "title": "Kan vi bygga CTS-sajten på 15 minuter? - En introduktion till Next.js",
+    "description": "Att bygga en webb genom ett ramverk som React har sina stora fördelar, men det är inte odelat positivt. Framförallt innebär klient-renderade sidor en längre initial laddningstid samt att SEO blir lite krångligare att få till bra.Ibland vore det bättre att överväga att göra som i de gamla goda dagarna - att leverera färdigrenderad HTML på varje request.\n\n Next.js är ett ramverk för React som möjliggör en hybridlösning av static och server side rendering. Detta snack blir en introduktion till detta ramverk. Jag tänker gå igenom för- och nackdelar med olika renderingstyper, samt visa hur snabbt man kan bygga en en \"blazing fast web page\" genom att köra Next.js.",
+    "feedbackUrl": "https://forms.gle/bgBsNBe1rnVQN6y9A",
+    "presentationUrl": "https://drive.google.com/file/d/1-ulOHH7bKSNCXnAmTwRlRAJRSTHvLMp5/view?usp=sharing",
+    "tracks": ["🇸🇪", "Next.js,", "react", "javascript", "frontend"],
+    "level": 1
+  },
+  {
+    "id": 18,
+    "speakers": [
+      {
+        "name": "Moa Blomkvist",
+        "image": "moa-blomkvist.jpg"
+      }
+    ],
+    "title": "Almost everyone can write, but what's the power of UX Writing?",
+    "description": "Words are not just meant to fill out a paragraph. It’s the final meeting between a user and a service. What you read can turn the design and features upside down and if we want users to like our products the product itself should behave like a likeable person: respectful and helpful. Let's talk about how you bring humanity and clarity to your interface.",
+    "feedbackUrl": "https://forms.gle/aXTUJkDWAXDjQzqW9",
+    "presentationUrl": "https://drive.google.com/file/d/1p_AYpAPfY__e_0NGkNwzhCkLgFJ5RfbH/view?usp=sharing",
+    "tracks": ["🇸🇪", "UX", "writing"],
+    "level": 1
+  },
+  {
+    "id": 19,
+    "speakers": [
+      {
+        "name": "Kalle Brisland",
+        "image": "kalle-brisland.jpg"
+      }
+    ],
+    "title": "Performance – It still matters",
+    "description": "Back in the olden days, programmers had to know and use all sorts of optimization tricks to squeeze out acceptable performance from the relatively meager hardware available, especially when it came to demanding applications such as real-time graphical games.\n\nWith the explosive development of much more powerful equipment, higher-level languages and frameworks, computing services and the like since then, much of that knowledge has fallen by the wayside, with the underlying raw power there to pick up the slack.\n\nIn this presentation we will look at some common patterns and pitfalls, backed up by benchmark results, to try to bring some of the performance-aware mindset of old back into the high-level world of today that most of us work in.",
+    "feedbackUrl": "https://forms.gle/hmfcbcGytfS1DN5T9",
+    "presentationUrl": "https://drive.google.com/file/d/1HRMwbub5Vtm-BppT90JfAYCSULJmHoRq/view?usp=sharing",
+    "tracks": ["🇬🇧", "performance", "benchmarks", "javascript", "dotnet"],
+    "level": 1
+  },
+  {
+    "id": 20,
+    "speakers": [
+      {
+        "name": "Thomas Dahlberg",
+        "image": "thomas-dahlberg.jpg"
+      }
+    ],
+    "title": "Generics for Go",
+    "description": "The discussion about generics in go is nearly as old as the language itself. \nDo we really need it? What are the benefits of adding generics to go and how is it supposed to work? \nI will present at brief history of go, what generics are and how the proposed inclusion to the language is going.",
+    "feedbackUrl": "https://forms.gle/9GS3aR2qTRRqhaoQ9",
+    "presentationUrl": "https://drive.google.com/file/d/12-vMd9o9bNk_AzoXNkU2kCQq-sy-MpS2/view?usp=sharing",
+    "tracks": ["🇬🇧", "go", "generics"],
+    "level": 1
+  },
+  {
+    "id": 21,
+    "speakers": [
+      {
+        "name": "Dan Gemvall",
+        "image": "dan-gemvall.jpg"
+      }
+    ],
+    "title": "Live navigation for complex spaces",
+    "description": "Dan har under sitt senaste uppdrag tillsammans med sitt team gjort det möjligt att navigera inomhus i Sara kulturhus. I denna presentationen berättar han om hur de gick till väga för att implementera Augmented Reality och navigeringen med hjälp av tekniker som Unity 3D, AR Foundation och Azure Spatial Anchors SDK.",
+    "feedbackUrl": "https://forms.gle/ZdriocT1J8rmeGjr8",
+    "presentationUrl": "https://drive.google.com/file/d/1CFwZOFRlDLBGAsI087HnDCe6D5tqJ5Gx/view?usp=sharing",
+    "tracks": ["🇸🇪", "ar", "ar foundation","unity 3d", "azure spatial anchors sdk"],
+    "level": 1
+  }
+]

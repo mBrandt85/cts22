@@ -1,0 +1,24 @@
+[
+  {
+    "id": 0,
+    "speakers": [
+      {
+        "name": "Fredrik Löfgren",
+        "image": "fredrik-lofgren.jpg"
+      }
+    ],
+    "title": "Framtiden är inte science fiction - den är redan här!",
+    "description": "Fredrik är robotutvecklare, VR & AI-expert och eftertraktad föreläsare som tidigare vunnit medaljer under både VM och OS i robotik. Med sina kunskaper slår han världen med häpnad när han förklarar möjligheter och utmaningar som framtiden av AI och robotar kommer medföra. En sak är säker - det kommer förändra såväl arbetsmarknaden och vår vardag i grunden."
+  },
+  {
+    "id": 1,
+    "speakers": [
+      {
+        "name": "Ted Schönbeck",
+        "image": "ted-schonbeck.jpg"
+      }
+    ],
+    "title": "Teknisk chef, Google Sverige",
+    "description": "Ted har över 20 års erfarenhet från IT-branschen och har arbetat på bl.a. IBM, VMware och Red Hat - han är en passionerad digital transformation, moln och AI-evangelist och en frekvent talare på seminarier och events."
+  }
+]

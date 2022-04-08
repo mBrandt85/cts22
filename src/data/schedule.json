@@ -1,0 +1,29 @@
+{
+  "startTime": "2022-10-01 11:45:00",
+  "slots": [
+    { "type": "intro", "duration": 15, "title": "Welcome to CTS 2022!"},
+    { "type": "keynote", "duration": 60, "title": "Keynote - Framtiden är inte science fiction - den är redan här!",
+      "speaker": "Fredrik Löfgren",
+      "linkToKeynotes": true
+    },
+    { "type": "fika", "duration": 60, "title": "Lunch break" },
+    { "type": "keynote", "duration": 45, "title": "Google - En visionär, rolig och lite läskig presentation om AI",
+      "speaker": "Ted Schönbeck, teknisk chef på Google Sverige",
+      "linkToKeynotes": true
+    },
+    { "type": "interview", "duration": 15, "title": "Being Jon Persson"},
+    { "type": "talks", "duration": 25, "talks": [16, 4, 9, 0] },
+    { "type": "fika", "duration": 5, "title": "Time for changing rooms"},
+    { "type": "talks", "duration": 25, "talks": [99, 15, 10, 14] },
+    { "type": "middle act", "duration": 10, "title": "Small talk from the studio"},
+    { "type": "talks", "duration": 25, "talks": [13, 20, 12, 14] },
+    { "type": "fika", "duration": 20, "title": "Coffee break AKA fika"},
+    { "type": "talks", "duration": 25, "talks": [17, 3, 21, 2] },
+    { "type": "middle act", "duration": 10, "title": "Small talk from the studio"},
+    { "type": "talks", "duration": 25, "talks": [5, 8, 18, 19] },
+    { "type": "fika", "duration": 5, "title": "Time for changing rooms"},
+    { "type": "talks", "duration": 25, "talks": [1, 11, 7, 6] },
+    { "type": "middle act", "duration": 5, "title": "Thank you for CTS 2022!"},
+    { "type": "fika", "duration": 335, "title": "Different activities per office"}
+  ]
+}

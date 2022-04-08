@@ -1,13 +1,11 @@
 import styled from "styled-components"
-import { News } from "../data"
-
 
 const StyledNews = styled.div`
   padding-bottom: 1rem;
   border-bottom: .05rem solid lightgray;
 `
 
-export default function NewsItem({ data: { title, date, message }}: { data: News }) {
+export default function NewsItem({ data: { title, date, message }}: { data: any }) {
   return (
     <StyledNews>
       <h3 style={{ margin: '1rem 0 0 0' }}>
