@@ -7,7 +7,7 @@ import useMediaQuery from './hooks/media-query'
 import { routes } from './routes'
 import Sidebar from './components/sidebar'
 
-const Container = styled.div`
+const Wrapper = styled.div`
   display: flex;
 `
 
@@ -25,13 +25,13 @@ export default function App() {
   const handheld = useMediaQuery('(max-width: 768px)')
 
   return <>
-    <Container>
+    <Wrapper>
       {!handheld && <Sidebar />}
 
       <Routes>
         {routes.map(({ route, element: Element }, key) => <Route key={key} path={route} element={<Element />} />)}
       </Routes>
-    </Container>
+    </Wrapper>
 
     {handheld && <>
       <StyledFade />

@@ -20,6 +20,7 @@ const SidebarContent = styled.div`
 `
 
 const SidebarItem = styled.a`
+  width: 100%;
   padding: .5rem 1rem;
   font-size: 1.1rem;
   font-weight: 700;
@@ -27,7 +28,7 @@ const SidebarItem = styled.a`
   cursor: pointer;
 
   &:hover {
-    color: white;
+    color: green;
   }
 `
 
