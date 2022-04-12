@@ -61,7 +61,6 @@ export default function Menu() {
       </span>
       
       <MenuItem route="/" text="Home" />
-      <MenuItem route="/" text="Schedule" />
       <MenuItem route="/talks" text="Speakers" />
       <MenuItem route="/workshops" text="Workshops" />
       <MenuItem route="/schedule" text="Schedule" />
