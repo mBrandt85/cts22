@@ -40,6 +40,7 @@ if (typeof Object.fromEntries !== 'function') {
 export type News = ReturnType<typeof getNews>[number];
 export type Room = ReturnType<typeof getRooms>[number];
 export type Talk = ReturnType<typeof getTalks>[number];
+export type Slot = Schedule[number];
 export type Schedule = ReturnType<typeof getSchedule>;
 export type ScheduleOverview = ReturnType<typeof getScheduleOverview>;
 export type Speaker = Talk['speakers'][number];
