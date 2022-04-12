@@ -1,16 +1,15 @@
 import { Routes, Route } from 'react-router-dom'
-import MenuToggle from './components/menu-toggle'
+import styled from 'styled-components'
 
+import MenuToggle from './components/menu-toggle'
 import { useUi } from './providers/ui-provider'
 import useMediaQuery from './hooks/media-query'
-import Home from './pages/home'
-import News from './pages/news'
-import Schedule from './pages/schedule'
-import Keynotes from './pages/keynotes'
-import Workshops from './pages/workshops'
-import NotFound from './pages/not-found'
-import styled from 'styled-components'
-import Talks from './pages/talks'
+import { routes } from './routes'
+import Sidebar from './components/sidebar'
+
+const Container = styled.div`
+  display: flex;
+`
 
 const StyledFade = styled.div`
   position: fixed;
@@ -26,15 +25,13 @@ export default function App() {
   const handheld = useMediaQuery('(max-width: 768px)')
 
   return <>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/news" element={<News />} />
-      <Route path="/talks" element={<Talks />} />
-      <Route path="/workshops" element={<Workshops />} />
-      <Route path="/schedule" element={<Schedule />} />
-      <Route path="/keynotes" element={<Keynotes />} />
-      <Route path="*" element={<NotFound />} />
-    </Routes>
+    <Container>
+      {!handheld && <Sidebar />}
+
+      <Routes>
+        {routes.map(({ route, element: Element }, key) => <Route key={key} path={route} element={<Element />} />)}
+      </Routes>
+    </Container>
 
     {handheld && <>
       <StyledFade />

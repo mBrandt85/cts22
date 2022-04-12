@@ -3,7 +3,6 @@ import { Grid, GridItem } from "../components/grid";
 import Layout from "../components/layout";
 import { Title } from "../components/typography";
 import { getTalks } from "../data";
-import logoWhite from '../assets/logo-white.svg'
 
 export default function Talks() {
   const talks = getTalks()

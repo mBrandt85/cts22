@@ -1,8 +1,12 @@
 import styled from "styled-components";
 
-export const Grid = styled.div`
+interface GridProps {
+  size?: string
+}
+
+export const Grid = styled.div<GridProps>`
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(12rem, 1fr) );
+  grid-template-columns: ${({ size }) => size ? `repeat(auto-fit, minmax(${size}, 1fr))` : 'repeat(auto-fit, minmax(12rem, 1fr))'};
   grid-gap: 2rem;
 `
 

@@ -17,6 +17,7 @@ export interface HeaderButton {
 const Container = styled.div`
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   width: 100%;
   padding: 1rem;
 

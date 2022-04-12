@@ -1,4 +1,4 @@
-import { Card, CardAction, CardContent, CardImage, CardTitle, CardTracks, CardTracksItem } from "../components/card";
+import { Card, CardAction, CardContent, CardTitle } from "../components/card";
 import { Grid, GridItem } from "../components/grid";
 import Layout from "../components/layout";
 import { Title } from "../components/typography";
@@ -10,7 +10,7 @@ export default function Talks() {
   return (
     <Layout title="Workshops">
       <Title size="1.5rem" margin="2rem 0 1rem 0">Workshops</Title>
-      <Grid>
+      <Grid size="16rem">
         {workshops.map( (workshop , workshopsKey) => (
             <GridItem key={workshopsKey}>
               <Card>

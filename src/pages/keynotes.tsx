@@ -12,7 +12,7 @@ export default function Keynotes() {
       <Title size="1.5rem" margin="2rem 0 1rem 0">Keynotes</Title>
       <Grid>
         {keynotes.map( (keynote) =>
-        keynote.speakers.map((speaker, speakerKey) => (
+          keynote.speakers.map((speaker, speakerKey) => (
             <GridItem key={speakerKey}>
               <Card>
                 <img src={require(`../assets/images/${speaker.image}`)} alt={keynote.title} />

@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom"
 
 import { useUi } from "../providers/ui-provider"
 import Logo from '../assets/logo-white.svg'
+import { routes } from "../routes"
 
 const StyledMenu = styled.div`
   width: 100%;
@@ -60,12 +61,7 @@ export default function Menu() {
         </svg>
       </span>
       
-      <MenuItem route="/" text="Home" />
-      <MenuItem route="/talks" text="Speakers" />
-      <MenuItem route="/workshops" text="Workshops" />
-      <MenuItem route="/schedule" text="Schedule" />
-      <MenuItem route="/keynotes" text="Keynotes" />
-      <MenuItem route="/news" text="News" />
+      {routes.map(({ route, text, menu }, key) => menu && <MenuItem key={key} route={route} text={text!} />)}
     </StyledMenu>
   )
 }
