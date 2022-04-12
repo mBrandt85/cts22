@@ -5,6 +5,8 @@ import { useUi } from './providers/ui-provider'
 import useMediaQuery from './hooks/media-query'
 import Home from './pages/home'
 import News from './pages/news'
+import Schedule from './pages/schedule'
+import Workshops from './pages/workshops'
 import NotFound from './pages/not-found'
 import styled from 'styled-components'
 import Talks from './pages/talks'
@@ -27,6 +29,8 @@ export default function App() {
       <Route path="/" element={<Home />} />
       <Route path="/news" element={<News />} />
       <Route path="/talks" element={<Talks />} />
+      <Route path="/workshops" element={<Workshops />} />
+      <Route path="/schedule" element={<Schedule />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
 

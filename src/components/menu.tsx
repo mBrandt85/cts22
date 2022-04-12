@@ -63,7 +63,8 @@ export default function Menu() {
       <MenuItem route="/" text="Home" />
       <MenuItem route="/" text="Schedule" />
       <MenuItem route="/talks" text="Speakers" />
-      <MenuItem route="/" text="Workshops" />
+      <MenuItem route="/workshops" text="Workshops" />
+      <MenuItem route="/schedule" text="Schedule" />
       <MenuItem route="/news" text="News" />
     </StyledMenu>
   )

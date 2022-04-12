@@ -6,6 +6,8 @@ import rawNews from './news.json';
 import rawTalks from './talks.json';
 import rawSchedule from './schedule.json';
 import rawKeynotes from './keynotes.json';
+import scheduleOverview from './schedule_overview.json';
+
 
 function makeReadonly<T>(array: readonly T[]): readonly T[] {
   return array;
@@ -39,7 +41,7 @@ export type News = ReturnType<typeof getNews>[number];
 export type Room = ReturnType<typeof getRooms>[number];
 export type Talk = ReturnType<typeof getTalks>[number];
 export type Schedule = ReturnType<typeof getSchedule>;
-export type Slot = Schedule[number];
+export type ScheduleOverview = ReturnType<typeof getScheduleOverview>;
 export type Speaker = Talk['speakers'][number];
 
 export function getDateFromString(dateString: string) {
@@ -58,8 +60,16 @@ export function getRooms() {
   });
 }
 
+export function getAllRooms() {
+  return makeReadonly(rooms)
+}
+
 export function getWorkshops() {
   return makeReadonly(workshops);
+}
+
+export function getScheduleOverview() {
+  return makeReadonly(scheduleOverview);
 }
 
 export function getAula() {
